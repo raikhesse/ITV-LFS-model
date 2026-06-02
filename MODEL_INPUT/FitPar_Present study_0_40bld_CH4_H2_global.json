@@ -1,0 +1,1758 @@
+{
+  "par": {
+    "S_0": 67.884088369624067,
+    "Theta_a": 13042.375139047748,
+    "n_p": 0.50685738718868634,
+    "n_p2": -0.0478126796358744,
+    "r_th": 0.48040966142423874,
+    "Theta_i": 12453.954890650317,
+    "B": 8.33379029326537,
+    "a_T": 1.1348592524651517,
+    "delta": 1.0738120762418346,
+    "n": 2.1870845476335816,
+    "alpha_T": 0,
+    "eps_Y": 0,
+    "q_Y": 1,
+    "a_Y": 470.97987532963378,
+    "eta": 5.3369775003943092,
+    "pc_r": 0.77312308369367011,
+    "lambda": 1,
+    "n_r": 0.61790741957262174,
+    "beta_L0": 1.2063730233805681,
+    "beta_Lp": -0.30176057672871037,
+    "beta_LT": -6.7876297539434027,
+    "beta_LY": -1.7842238473007392,
+    "beta_R0": 6.1303161873280514,
+    "beta_Rp": -2.5905360566534217,
+    "beta_RT": 2.6100257480024092,
+    "beta_RY": -12.049175817794087,
+    "zeta_0": 0.15324665008732963,
+    "zeta_p": -0.052510868648117076,
+    "zeta_T": 0.26689737620030851,
+    "zeta_Y": -0.52939921979165,
+    "gamma_0": -0.63693435173690072,
+    "gamma_p": 0.19236722831900369,
+    "gamma_T": 1.6919321730823094,
+    "gamma_Y": 2.84928186099533,
+    "kappa_w0": 0,
+    "kappa_wp": -0,
+    "kappa_wT": -0,
+    "kappa_wY": -0,
+    "kappa_t0": 2.5889937152668874,
+    "kappa_tp": 0.34039367568533,
+    "kappa_tT": -3.9540890393636428,
+    "kappa_tY": 1.1674147427769721
+  },
+  "units": [
+    "[cm/s]",
+    "[K]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[K]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[K]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]",
+    "[-]"
+  ],
+  "metrics": {
+    "R2": 0.99873699230148183,
+    "MAPE": 3.0622582053531695,
+    "RMSE": 1.5174746224292872,
+    "CM": "N/A"
+  },
+  "metrics_units": [
+    "[-]",
+    "[%]",
+    "[cm/s]",
+    "[]"
+  ],
+  "p0_guess": [
+    66.76622785477403,
+    12860.346332398783,
+    0.2,
+    0,
+    1,
+    10651.797362077641,
+    7,
+    0.32,
+    1,
+    2,
+    0,
+    0,
+    1,
+    100,
+    10,
+    0.60235929599999993,
+    1,
+    0.7,
+    1.6,
+    0,
+    0,
+    0,
+    1.9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2.5,
+    0.01,
+    0.01,
+    0.01,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "UB": [
+    166.91556963693509,
+    15692.977888572808,
+    0.96000000000000008,
+    0.2,
+    1.78,
+    18000,
+    20,
+    1.2,
+    1.2,
+    3.8,
+    0,
+    0,
+    1,
+    2000,
+    12,
+    20,
+    1,
+    2.6,
+    20,
+    50,
+    50,
+    50,
+    20,
+    50,
+    50,
+    50,
+    3,
+    3,
+    3,
+    3,
+    20,
+    50,
+    50,
+    50,
+    0,
+    0,
+    0,
+    0,
+    50,
+    50,
+    50,
+    50
+  ],
+  "LB": [
+    10,
+    7000,
+    0.02,
+    -0.2,
+    0.16572270086699936,
+    500,
+    1,
+    -1.5,
+    0.8,
+    1.9,
+    0,
+    0,
+    1,
+    0,
+    0.001,
+    0.4,
+    1,
+    0,
+    0,
+    -50,
+    -50,
+    -50,
+    0,
+    -50,
+    -50,
+    -50,
+    -3,
+    -3,
+    -3,
+    -3,
+    -50,
+    -50,
+    -50,
+    -50,
+    0,
+    -0,
+    -0,
+    -0,
+    0,
+    -50,
+    -50,
+    -50
+  ],
+  "aux": {
+    "par": {
+      "q_T": 14.429029567116526,
+      "A_0": 3004.982162533367,
+      "A_T": -0.3965063191695295,
+      "alpha_0": 0.4628891535057385,
+      "tau_Y": -0.17302559555223576,
+      "xi_Y": 0.96276112485230525,
+      "m_r": 0.777827999998557,
+      "phi_Tref": 1.0283880207680065,
+      "phi_Sref": 1.1
+    },
+    "metrics": {
+      "R2": 0.99753328629542237,
+      "MAPE": 0.44440661021462896,
+      "RMSE": 13.260829784578783
+    },
+    "cluster_input_names": [
+      "T_K",
+      "p_bar",
+      "Yegr",
+      "phi",
+      "mode",
+      "T0",
+      "cluster_T_K",
+      "cluster_p_bar",
+      "cluster_Yegr",
+      "cluster_phi",
+      "SL"
+    ]
+  },
+  "ref": {
+    "p_ref": 10,
+    "T_ref": 1250,
+    "phi_Sref": 1.1,
+    "phi_Tref": 1.0283880207680065
+  },
+  "ref_units": [
+    "[bar]",
+    "[K]",
+    "[-]",
+    "[-]"
+  ],
+  "modelOpts": {
+    "q_s": 2.5,
+    "nu_cut": 1,
+    "w_rl": 0.5,
+    "w_w": 0.8,
+    "nu_w": 2,
+    "dm_max": 8,
+    "p_ref": 10,
+    "T_ref": 1250,
+    "cY_T0": 0,
+    "wT": 0,
+    "wP": 0,
+    "wY": 1,
+    "kfold": 1,
+    "cvMode": "cluster",
+    "clusterCV": {
+      "cols": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nClusters": 1,
+      "rngSeed": 123
+    },
+    "doPlots": true,
+    "doExport": true,
+    "nStarts": 12,
+    "jitterFrac": 0.25,
+    "solver": {
+      "SolverName": "lsqcurvefit",
+      "LsqcurvefitVersion": 6,
+      "ConstraintTolerance": 1E-6,
+      "Display": "iter",
+      "FiniteDifferenceStepSize": "sqrt(eps)",
+      "FiniteDifferenceType": "forward",
+      "FunctionTolerance": 1E-9,
+      "JacobianMultiplyFcn": [],
+      "MaxFunctionEvaluations": 200000,
+      "MaxIterations": 300,
+      "OptimalityTolerance": 1E-6,
+      "OutputFcn": [],
+      "PlotFcn": [],
+      "SpecifyConstraintGradient": false,
+      "SpecifyObjectiveGradient": false,
+      "StepTolerance": 1E-9,
+      "SubproblemAlgorithm": "factorization",
+      "TypicalX": "ones(numberOfVariables,1)",
+      "UseParallel": false,
+      "BarrierParamUpdate": "monotone",
+      "CheckGradients": false,
+      "DerivativeCheck": "off",
+      "Diagnostics": "off",
+      "DiffMaxChange": null,
+      "DiffMinChange": 0,
+      "FinDiffRelStep": "sqrt(eps)",
+      "FinDiffType": "forward",
+      "FunValCheck": "off",
+      "GradConstr": "off",
+      "InitDamping": 0.01,
+      "Jacobian": "off",
+      "JacobMult": [],
+      "JacobPattern": "sparse(ones(Jrows,Jcols))",
+      "MaxFunEvals": 200000,
+      "MaxIter": 300,
+      "MaxPCGIter": "max(1,floor(numberOfVariables/2))",
+      "PlotFcns": [],
+      "PrecondBandWidth": null,
+      "ScaleProblem": "none",
+      "TolCon": 1E-6,
+      "TolFun": 1E-6,
+      "TolPCG": 0.1,
+      "TolX": 1E-9,
+      "InitBarrierParam": 0.1,
+      "OptionsStore": {
+        "AlgorithmNames": [
+          "trust-region-reflective",
+          "levenberg-marquardt",
+          "interior-point"
+        ],
+        "DefaultAlgorithm": "trust-region-reflective",
+        "AlgorithmDefaults": [
+          {
+            "DerivativeCheck": "off",
+            "Diagnostics": "off",
+            "DiffMaxChange": null,
+            "DiffMinChange": 0,
+            "Display": "final",
+            "FinDiffRelStep": "sqrt(eps)",
+            "FinDiffType": "forward",
+            "FunValCheck": "off",
+            "Jacobian": "off",
+            "MaxFunEvals": "100*numberOfVariables",
+            "MaxIter": 400,
+            "OutputFcn": [],
+            "PlotFcns": [],
+            "TolFunValue": 1E-6,
+            "TolFun": 1E-6,
+            "TolX": 1E-6,
+            "TypicalX": "ones(numberOfVariables,1)",
+            "JacobMult": [],
+            "JacobPattern": "sparse(ones(Jrows,Jcols))",
+            "MaxPCGIter": "max(1,floor(numberOfVariables/2))",
+            "PrecondBandWidth": null,
+            "TolPCG": 0.1,
+            "UseParallel": false
+          },
+          {
+            "DerivativeCheck": "off",
+            "Diagnostics": "off",
+            "DiffMaxChange": null,
+            "DiffMinChange": 0,
+            "Display": "final",
+            "FinDiffRelStep": "sqrt(eps)",
+            "FinDiffType": "forward",
+            "FunValCheck": "off",
+            "Jacobian": "off",
+            "InitDamping": 0.01,
+            "MaxFunEvals": "200*numberOfVariables",
+            "MaxIter": 400,
+            "OutputFcn": [],
+            "PlotFcns": [],
+            "TolFunValue": 1E-6,
+            "TolX": 1E-6,
+            "TypicalX": "ones(numberOfVariables,1)",
+            "ScaleProblem": "none",
+            "UseParallel": false
+          },
+          {
+            "Display": "final",
+            "OutputFcn": [],
+            "PlotFcns": [],
+            "Diagnostics": "off",
+            "FinDiffType": "forward",
+            "FinDiffRelStep": "sqrt(eps)",
+            "DiffMaxChange": null,
+            "DiffMinChange": 0,
+            "DerivativeCheck": "off",
+            "TypicalX": "ones(numberOfVariables,1)",
+            "ScaleProblem": "none",
+            "InitBarrierParam": 0.1,
+            "SubproblemAlgorithm": "ldl-factorization",
+            "BarrierParamUpdate": "monotone",
+            "GradConstr": "off",
+            "Jacobian": "off",
+            "FunValCheck": "off",
+            "MaxFunEvals": 3000,
+            "MaxIter": 1000,
+            "TolCon": 1E-6,
+            "TolFun": 1E-6,
+            "TolX": 1E-10,
+            "UseParallel": false
+          }
+        ],
+        "AlgorithmIndex": [
+          true,
+          false,
+          false
+        ],
+        "SetByUser": {
+          "BarrierParamUpdate": false,
+          "DerivativeCheck": false,
+          "Diagnostics": false,
+          "DiffMaxChange": false,
+          "DiffMinChange": false,
+          "Display": true,
+          "FinDiffRelStep": false,
+          "FinDiffType": false,
+          "FunValCheck": false,
+          "GradConstr": false,
+          "InitBarrierParam": false,
+          "InitDamping": false,
+          "JacobMult": false,
+          "JacobPattern": false,
+          "Jacobian": false,
+          "MaxFunEvals": true,
+          "MaxIter": true,
+          "MaxPCGIter": false,
+          "OutputFcn": false,
+          "PlotFcns": false,
+          "PrecondBandWidth": false,
+          "ScaleProblem": false,
+          "SubproblemAlgorithm": false,
+          "TolCon": false,
+          "TolFun": false,
+          "TolFunValue": true,
+          "TolPCG": false,
+          "TolX": true,
+          "TypicalX": false,
+          "UseParallel": false,
+          "Algorithm": false
+        },
+        "NonConstantDefaultFields": [
+          "MaxFunEvals",
+          "MaxIter",
+          "TolX"
+        ],
+        "IsConstantDefault": {
+          "BarrierParamUpdate": true,
+          "DerivativeCheck": true,
+          "Diagnostics": true,
+          "DiffMaxChange": true,
+          "DiffMinChange": true,
+          "Display": true,
+          "FinDiffRelStep": true,
+          "FinDiffType": true,
+          "FunValCheck": true,
+          "GradConstr": true,
+          "InitBarrierParam": true,
+          "InitDamping": true,
+          "JacobMult": true,
+          "JacobPattern": true,
+          "Jacobian": true,
+          "MaxFunEvals": false,
+          "MaxIter": false,
+          "MaxPCGIter": true,
+          "OutputFcn": true,
+          "PlotFcns": true,
+          "PrecondBandWidth": true,
+          "ScaleProblem": true,
+          "SubproblemAlgorithm": true,
+          "TolCon": true,
+          "TolFun": true,
+          "TolFunValue": true,
+          "TolPCG": true,
+          "TolX": false,
+          "TypicalX": true,
+          "UseParallel": true,
+          "Algorithm": true
+        },
+        "NonConstantDefaults": {
+          "MaxFunEvals": [
+            "100*numberOfVariables",
+            "200*numberOfVariables",
+            3000
+          ],
+          "MaxIter": [
+            400,
+            400,
+            1000
+          ],
+          "TolX": [
+            1E-6,
+            1E-6,
+            1E-10
+          ]
+        },
+        "Options": {
+          "DerivativeCheck": "off",
+          "Diagnostics": "off",
+          "DiffMaxChange": null,
+          "DiffMinChange": 0,
+          "Display": "iter",
+          "FinDiffRelStep": "sqrt(eps)",
+          "FinDiffType": "forward",
+          "FunValCheck": "off",
+          "Jacobian": "off",
+          "MaxFunEvals": 200000,
+          "MaxIter": 300,
+          "OutputFcn": [],
+          "PlotFcns": [],
+          "TolFunValue": 1E-9,
+          "TolFun": 1E-6,
+          "TolX": 1E-9,
+          "TypicalX": "ones(numberOfVariables,1)",
+          "JacobMult": [],
+          "JacobPattern": "sparse(ones(Jrows,Jcols))",
+          "MaxPCGIter": "max(1,floor(numberOfVariables/2))",
+          "PrecondBandWidth": null,
+          "TolPCG": 0.1,
+          "UseParallel": false,
+          "BarrierParamUpdate": "monotone",
+          "GradConstr": "off",
+          "InitBarrierParam": 0.1,
+          "InitDamping": 0.01,
+          "ScaleProblem": "none",
+          "SubproblemAlgorithm": "ldl-factorization",
+          "TolCon": 1E-6,
+          "Algorithm": "trust-region-reflective"
+        },
+        "NumDisplayOptions": [
+          16,
+          13,
+          17
+        ],
+        "DisplayOptions": [
+          [
+            "Display",
+            "FiniteDifferenceStepSize",
+            "FiniteDifferenceType",
+            "SpecifyObjectiveGradient",
+            "MaxFunctionEvaluations",
+            "MaxIterations",
+            "OutputFcn",
+            "PlotFcn",
+            "FunctionTolerance",
+            "OptimalityTolerance",
+            "StepTolerance",
+            "TypicalX",
+            "JacobianMultiplyFcn",
+            "SubproblemAlgorithm",
+            "UseParallel",
+            "Algorithm"
+          ],
+          [
+            "Display",
+            "FiniteDifferenceStepSize",
+            "FiniteDifferenceType",
+            "SpecifyObjectiveGradient",
+            "MaxFunctionEvaluations",
+            "MaxIterations",
+            "OutputFcn",
+            "PlotFcn",
+            "FunctionTolerance",
+            "StepTolerance",
+            "TypicalX",
+            "UseParallel",
+            "Algorithm"
+          ],
+          [
+            "Display",
+            "OutputFcn",
+            "PlotFcn",
+            "FiniteDifferenceType",
+            "FiniteDifferenceStepSize",
+            "TypicalX",
+            "SubproblemAlgorithm",
+            "BarrierParamUpdate",
+            "SpecifyConstraintGradient",
+            "SpecifyObjectiveGradient",
+            "MaxFunctionEvaluations",
+            "MaxIterations",
+            "ConstraintTolerance",
+            "OptimalityTolerance",
+            "StepTolerance",
+            "UseParallel",
+            "Algorithm"
+          ]
+        ]
+      },
+      "PropertyMetaInfo": {
+        "Algorithm": {
+          "TypeKey": "enum",
+          "TabType": "enum",
+          "Category": "Algorithm settings",
+          "DisplayLabel": "Algorithm",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "trust-region-reflective",
+              "levenberg-marquardt",
+              "interior-point"
+            ]
+          ],
+          "Values": [
+            "trust-region-reflective",
+            "levenberg-marquardt",
+            "interior-point"
+          ]
+        },
+        "ConstraintTolerance": {
+          "TypeKey": "numeric",
+          "TabType": [
+            "numeric",
+            "scalar",
+            ">=0"
+          ],
+          "Category": "Tolerances",
+          "DisplayLabel": "Constraint tolerance",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            false
+          ],
+          "Shape": "scalar",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            false
+          ]
+        },
+        "Display": {
+          "TypeKey": "enum",
+          "TabType": "enum",
+          "Category": "Diagnostics",
+          "DisplayLabel": "Display level",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "none",
+              "off",
+              "iter",
+              "iter-detailed",
+              "final",
+              "final-detailed"
+            ]
+          ],
+          "Values": [
+            "none",
+            "off",
+            "iter",
+            "iter-detailed",
+            "final",
+            "final-detailed"
+          ]
+        },
+        "FiniteDifferenceStepSize": {
+          "TypeKey": "numeric",
+          "TabType": "numeric",
+          "Category": "Derivatives",
+          "DisplayLabel": "Finite difference step",
+          "Widget": "matlab.ui.control.internal.model.WorkspaceDropDown",
+          "WidgetData": [
+            "UseDefaultAsPlaceholder",
+            true,
+            "FilterVariablesFcn",
+            "@(v)localNumericCheck(lowerComp,upperComp,shapeCheck,v)"
+          ],
+          "Shape": "vector",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            false,
+            true
+          ],
+          "ShapeCheck": "isvector",
+          "CheckFcn": "@(v)localNumericCheck(lowerComp,upperComp,shapeCheck,v)",
+          "LowerComp": "@(x)x>limits(1)",
+          "UpperComp": "@(x)true"
+        },
+        "FiniteDifferenceType": {
+          "TypeKey": "enum",
+          "TabType": "enum",
+          "Category": "Derivatives",
+          "DisplayLabel": "Finite difference type",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "forward",
+              "central"
+            ]
+          ],
+          "Values": [
+            "forward",
+            "central"
+          ]
+        },
+        "FunctionTolerance": {
+          "TypeKey": "numeric",
+          "TabType": [
+            "numeric",
+            "scalar",
+            ">=0"
+          ],
+          "Category": "Tolerances",
+          "DisplayLabel": "Function tolerance",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            false
+          ],
+          "Shape": "scalar",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            false
+          ]
+        },
+        "JacobianMultiplyFcn": {
+          "TypeKey": "fcn",
+          "TabType": [
+            [
+              "function_handle"
+            ],
+            [
+              "@(x) isempty(x)"
+            ]
+          ],
+          "Category": "Derivatives",
+          "DisplayLabel": "Jacobian multiply function",
+          "Widget": "matlab.ui.control.EditField",
+          "WidgetData": [],
+          "Values": "",
+          "CheckAgainstValues": false
+        },
+        "MaxFunctionEvaluations": {
+          "TypeKey": "integer",
+          "TabType": "integer",
+          "Category": "Run time limits",
+          "DisplayLabel": "Max function evals",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            true
+          ],
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            true
+          ]
+        },
+        "MaxIterations": {
+          "TypeKey": "integer",
+          "TabType": "integer",
+          "Category": "Run time limits",
+          "DisplayLabel": "Max iterations",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            true
+          ],
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            true
+          ]
+        },
+        "OptimalityTolerance": {
+          "TypeKey": "numeric",
+          "TabType": [
+            "numeric",
+            "scalar",
+            ">=0"
+          ],
+          "Category": "Tolerances",
+          "DisplayLabel": "Optimality tolerance",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            false
+          ],
+          "Shape": "scalar",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            false
+          ]
+        },
+        "OutputFcn": {
+          "TypeKey": "fcn",
+          "TabType": [
+            [
+              "function_handle"
+            ],
+            [
+              "@(x) isempty(x)"
+            ]
+          ],
+          "Category": "Diagnostics",
+          "DisplayLabel": "Output function",
+          "Widget": "matlab.ui.control.EditField",
+          "WidgetData": [],
+          "Values": [],
+          "CheckAgainstValues": false
+        },
+        "PlotFcn": {
+          "TypeKey": "fcn",
+          "TabType": [
+            [
+              "function_handle"
+            ],
+            [
+              "@(x) isempty(x)"
+            ]
+          ],
+          "Category": "Diagnostics",
+          "DisplayLabel": "Plot function",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "[]",
+              "optimplotx",
+              "optimplotfunccount",
+              "optimplotresnorm",
+              "optimplotfval",
+              "optimplotstepsize",
+              "optimplotfirstorderopt"
+            ]
+          ],
+          "Values": [
+            "optimplotx",
+            "optimplotfunccount",
+            "optimplotresnorm",
+            "optimplotfval",
+            "optimplotstepsize",
+            "optimplotfirstorderopt"
+          ],
+          "CheckAgainstValues": false
+        },
+        "SpecifyObjectiveGradient": {
+          "TypeKey": "logical",
+          "TabType": [
+            "logical",
+            "scalar"
+          ],
+          "Category": "Derivatives",
+          "DisplayLabel": "Objective returns gradients",
+          "Widget": "matlab.ui.control.CheckBox",
+          "WidgetData": [
+            "Text",
+            ""
+          ]
+        },
+        "StepTolerance": {
+          "TypeKey": "numeric",
+          "TabType": [
+            "numeric",
+            "scalar",
+            ">=0"
+          ],
+          "Category": "Tolerances",
+          "DisplayLabel": "Step tolerance",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            false
+          ],
+          "Shape": "scalar",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            false
+          ]
+        },
+        "SpecifyConstraintGradient": {
+          "TypeKey": "logical",
+          "TabType": [
+            "logical",
+            "scalar"
+          ],
+          "Category": "Derivatives",
+          "DisplayLabel": "Constraint returns gradients",
+          "Widget": "matlab.ui.control.CheckBox",
+          "WidgetData": [
+            "Text",
+            ""
+          ]
+        },
+        "SubproblemAlgorithm": {
+          "TypeKey": "enum",
+          "TabType": "enum",
+          "Category": "Algorithm settings",
+          "DisplayLabel": "Subproblem algorithm",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "cg",
+              "factorization",
+              "ldl-factorization"
+            ]
+          ],
+          "Values": [
+            "cg",
+            "factorization",
+            "ldl-factorization"
+          ]
+        },
+        "TypicalX": {
+          "TypeKey": "numeric",
+          "TabType": "numeric",
+          "Category": "Derivatives",
+          "DisplayLabel": "Typical parameter values",
+          "Widget": "matlab.ui.control.internal.model.WorkspaceDropDown",
+          "WidgetData": [
+            "UseDefaultAsPlaceholder",
+            true,
+            "FilterVariablesFcn",
+            "@(v)localNumericCheck(lowerComp,upperComp,shapeCheck,v)"
+          ],
+          "Shape": "matrix",
+          "Limits": [
+            null,
+            null
+          ],
+          "Inclusive": [
+            false,
+            false
+          ],
+          "ShapeCheck": "ismatrix",
+          "CheckFcn": "@(v)localNumericCheck(lowerComp,upperComp,shapeCheck,v)",
+          "LowerComp": "@(x)x>limits(1)",
+          "UpperComp": "@(x)x<limits(2)"
+        },
+        "UseParallel": {
+          "EnumType": {
+            "TypeKey": "enum",
+            "TabType": "enum",
+            "Category": "",
+            "DisplayLabel": "",
+            "Widget": "matlab.ui.control.DropDown",
+            "WidgetData": [
+              "Items",
+              [
+                "always",
+                "never"
+              ]
+            ],
+            "Values": [
+              "always",
+              "never"
+            ]
+          },
+          "TypeKey": "logical",
+          "TabType": [
+            "logical",
+            "scalar"
+          ],
+          "Category": "Derivatives",
+          "DisplayLabel": "Evaluate functions in parallel",
+          "Widget": "matlab.ui.control.CheckBox",
+          "WidgetData": [
+            "Text",
+            ""
+          ]
+        },
+        "BarrierParamUpdate": {
+          "TypeKey": "enum",
+          "TabType": "enum",
+          "Category": "Algorithm settings",
+          "DisplayLabel": "Barrier parameter update method",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "monotone",
+              "predictor-corrector"
+            ]
+          ],
+          "Values": [
+            "monotone",
+            "predictor-corrector"
+          ]
+        },
+        "CheckGradients": {
+          "TypeKey": "logical",
+          "TabType": [
+            "logical",
+            "scalar"
+          ],
+          "Category": "Derivatives",
+          "DisplayLabel": "Check gradients",
+          "Widget": "matlab.ui.control.CheckBox",
+          "WidgetData": [
+            "Text",
+            ""
+          ]
+        },
+        "DerivativeCheck": {
+          "TypeKey": "enum",
+          "TabType": "enum",
+          "Category": "",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "on",
+              "off"
+            ]
+          ],
+          "Values": [
+            "on",
+            "off"
+          ]
+        },
+        "Diagnostics": {
+          "TypeKey": "enum",
+          "TabType": "enum",
+          "Category": "",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "on",
+              "off"
+            ]
+          ],
+          "Values": [
+            "on",
+            "off"
+          ]
+        },
+        "DiffMaxChange": {
+          "TypeKey": "numeric",
+          "TabType": [
+            "numeric",
+            "scalar",
+            ">=0"
+          ],
+          "Category": "Tolerances",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            false
+          ],
+          "Shape": "scalar",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            false
+          ]
+        },
+        "DiffMinChange": {
+          "TypeKey": "numeric",
+          "TabType": [
+            "numeric",
+            "scalar",
+            ">=0"
+          ],
+          "Category": "Tolerances",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            false
+          ],
+          "Shape": "scalar",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            false
+          ]
+        },
+        "FunValCheck": {
+          "TypeKey": "enum",
+          "TabType": "enum",
+          "Category": "",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "on",
+              "off"
+            ]
+          ],
+          "Values": [
+            "on",
+            "off"
+          ]
+        },
+        "GradConstr": {
+          "TypeKey": "enum",
+          "TabType": "enum",
+          "Category": "",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "on",
+              "off"
+            ]
+          ],
+          "Values": [
+            "on",
+            "off"
+          ]
+        },
+        "InitDamping": {
+          "TypeKey": "numeric",
+          "TabType": [
+            "numeric",
+            "scalar",
+            ">=0"
+          ],
+          "Category": "Tolerances",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            false
+          ],
+          "Shape": "scalar",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            false
+          ]
+        },
+        "Jacobian": {
+          "TypeKey": "enum",
+          "TabType": "enum",
+          "Category": "",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "on",
+              "off"
+            ]
+          ],
+          "Values": [
+            "on",
+            "off"
+          ]
+        },
+        "JacobPattern": {
+          "TypeKey": "numeric",
+          "TabType": "numeric",
+          "Category": "",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.internal.model.WorkspaceDropDown",
+          "WidgetData": [
+            "UseDefaultAsPlaceholder",
+            true,
+            "FilterVariablesFcn",
+            "@(v)localNumericCheck(lowerComp,upperComp,shapeCheck,v)"
+          ],
+          "Shape": "matrix",
+          "Limits": [
+            null,
+            null
+          ],
+          "Inclusive": [
+            true,
+            true
+          ],
+          "ShapeCheck": "ismatrix",
+          "CheckFcn": "@(v)localNumericCheck(lowerComp,upperComp,shapeCheck,v)",
+          "LowerComp": "@(x)true",
+          "UpperComp": "@(x)true"
+        },
+        "MaxPCGIter": {
+          "TypeKey": "integer",
+          "TabType": "integer",
+          "Category": "Run time limits",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            true
+          ],
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            true
+          ]
+        },
+        "PrecondBandWidth": {
+          "TypeKey": "integer",
+          "TabType": "integer",
+          "Category": "",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            true
+          ],
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            true
+          ]
+        },
+        "ScaleProblem": {
+          "TypeKey": "enum",
+          "TabType": "enum",
+          "Category": "",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "none",
+              "jacobian",
+              "obj-and-constr"
+            ]
+          ],
+          "Values": [
+            "none",
+            "jacobian",
+            "obj-and-constr"
+          ]
+        },
+        "TolPCG": {
+          "TypeKey": "numeric",
+          "TabType": [
+            "numeric",
+            "scalar",
+            ">=0"
+          ],
+          "Category": "Tolerances",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            false
+          ],
+          "Shape": "scalar",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            false
+          ]
+        },
+        "InitBarrierParam": {
+          "TypeKey": "numeric",
+          "TabType": "numeric",
+          "Category": "",
+          "DisplayLabel": "",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            false,
+            "UpperLimitInclusive",
+            true
+          ],
+          "Shape": "scalar",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            false,
+            true
+          ],
+          "ShapeCheck": "isscalar",
+          "CheckFcn": "@(v)localNumericCheck(lowerComp,upperComp,shapeCheck,v)",
+          "LowerComp": "@(x)x>limits(1)",
+          "UpperComp": "@(x)true"
+        },
+        "FinDiffRelStep": {
+          "TypeKey": "numeric",
+          "TabType": "numeric",
+          "Category": "Derivatives",
+          "DisplayLabel": "Finite difference step",
+          "Widget": "matlab.ui.control.internal.model.WorkspaceDropDown",
+          "WidgetData": [
+            "UseDefaultAsPlaceholder",
+            true,
+            "FilterVariablesFcn",
+            "@(v)localNumericCheck(lowerComp,upperComp,shapeCheck,v)"
+          ],
+          "Shape": "vector",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            false,
+            true
+          ],
+          "ShapeCheck": "isvector",
+          "CheckFcn": "@(v)localNumericCheck(lowerComp,upperComp,shapeCheck,v)",
+          "LowerComp": "@(x)x>limits(1)",
+          "UpperComp": "@(x)true"
+        },
+        "FinDiffType": {
+          "TypeKey": "enum",
+          "TabType": "enum",
+          "Category": "Derivatives",
+          "DisplayLabel": "Finite difference type",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "forward",
+              "central"
+            ]
+          ],
+          "Values": [
+            "forward",
+            "central"
+          ]
+        },
+        "JacobMult": {
+          "TypeKey": "fcn",
+          "TabType": [
+            [
+              "function_handle"
+            ],
+            [
+              "@(x) isempty(x)"
+            ]
+          ],
+          "Category": "Derivatives",
+          "DisplayLabel": "Jacobian multiply function",
+          "Widget": "matlab.ui.control.EditField",
+          "WidgetData": [],
+          "Values": "",
+          "CheckAgainstValues": false
+        },
+        "MaxIter": {
+          "TypeKey": "integer",
+          "TabType": "integer",
+          "Category": "Run time limits",
+          "DisplayLabel": "Max iterations",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            true
+          ],
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            true
+          ]
+        },
+        "MaxFunEvals": {
+          "TypeKey": "integer",
+          "TabType": "integer",
+          "Category": "Run time limits",
+          "DisplayLabel": "Max function evals",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            true
+          ],
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            true
+          ]
+        },
+        "PlotFcns": {
+          "TypeKey": "fcn",
+          "TabType": [
+            [
+              "function_handle"
+            ],
+            [
+              "@(x) isempty(x)"
+            ]
+          ],
+          "Category": "Diagnostics",
+          "DisplayLabel": "Plot function",
+          "Widget": "matlab.ui.control.DropDown",
+          "WidgetData": [
+            "Items",
+            [
+              "[]",
+              "optimplotx",
+              "optimplotfunccount",
+              "optimplotresnorm",
+              "optimplotfval",
+              "optimplotstepsize",
+              "optimplotfirstorderopt"
+            ]
+          ],
+          "Values": [
+            "optimplotx",
+            "optimplotfunccount",
+            "optimplotresnorm",
+            "optimplotfval",
+            "optimplotstepsize",
+            "optimplotfirstorderopt"
+          ],
+          "CheckAgainstValues": false
+        },
+        "TolCon": {
+          "TypeKey": "numeric",
+          "TabType": [
+            "numeric",
+            "scalar",
+            ">=0"
+          ],
+          "Category": "Tolerances",
+          "DisplayLabel": "Constraint tolerance",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            false
+          ],
+          "Shape": "scalar",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            false
+          ]
+        },
+        "TolFun": {
+          "TypeKey": "numeric",
+          "TabType": [
+            "numeric",
+            "scalar",
+            ">=0"
+          ],
+          "Category": "Tolerances",
+          "DisplayLabel": "Function tolerance",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            false
+          ],
+          "Shape": "scalar",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            false
+          ]
+        },
+        "TolX": {
+          "TypeKey": "numeric",
+          "TabType": [
+            "numeric",
+            "scalar",
+            ">=0"
+          ],
+          "Category": "Tolerances",
+          "DisplayLabel": "Step tolerance",
+          "Widget": "matlab.ui.control.NumericEditField",
+          "WidgetData": [
+            "HorizontalAlignment",
+            "left",
+            "Limits",
+            [
+              0,
+              null
+            ],
+            "LowerLimitInclusive",
+            true,
+            "UpperLimitInclusive",
+            false
+          ],
+          "Shape": "scalar",
+          "Limits": [
+            0,
+            null
+          ],
+          "Inclusive": [
+            true,
+            false
+          ]
+        }
+      },
+      "InternalOptions": {},
+      "Algorithm": "trust-region-reflective",
+      "ProblemdefOptions": {
+        "FromSolve": false,
+        "FunOnWorkers": true,
+        "ObjectiveMultiplier": 1,
+        "ObjectiveOffset": 0
+      },
+      "FromOptimProblem": false,
+      "Version": 2
+    },
+    "weighting": {},
+    "dT_max_override": "@(dT_max_in)dT_max_in",
+    "thn": {
+      "p": "p_bar",
+      "Tu": "T_K",
+      "phi": "phi",
+      "egr": "Yegr",
+      "bld": "Xblend",
+      "Ybld": "Yblend",
+      "ox": "Xox_air",
+      "SL": "SL",
+      "SLpred": "SLpred",
+      "T0": "T0",
+      "T0pred": "T0pred",
+      "Tb": "Tad_K",
+      "Tbpred": "Tad_Kpred",
+      "YF": "Yfuel",
+      "Yred": "Yred",
+      "Zst": "Zst",
+      "phi_peak": "phi_peak",
+      "rhou": "density_u",
+      "rhou_calc": "density_u_calc",
+      "MWegr": "MWegr",
+      "TS": "TS",
+      "TSpred": "TSpred"
+    },
+    "T0_penalty": {
+      "use": true,
+      "useLog": true,
+      "delta": 0.05,
+      "gamma": 0.05,
+      "T0_floor": 1100.251912
+    },
+    "mode": "resnorm"
+  }
+}

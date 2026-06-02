@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated preprint/article."
+title: "ITV-LFS-model: Physics-guided laminar flame speed correlation for methane-hydrogen-air mixtures"
+authors:
+  - family-names: "Hesse"
+    given-names: "Raik"
+    affiliation: "Institute for Combustion Technology, RWTH Aachen University"
+  - family-names: "Schwenzer"
+    given-names: "Christian"
+    affiliation: "Institute for Combustion Technology, RWTH Aachen University"
+  - family-names: "Glaznev"
+    given-names: "Roman"
+    affiliation: "Institute for Combustion Technology, RWTH Aachen University"
+  - family-names: "Cameron"
+    given-names: "Florence"
+    affiliation: "Institute for Combustion Technology, RWTH Aachen University"
+  - family-names: "Pitsch"
+    given-names: "Heinz"
+    affiliation: "Institute for Combustion Technology, RWTH Aachen University"
+  - family-names: "Beeckmann"
+    given-names: "Joachim"
+    affiliation: "Institute for Combustion Technology, RWTH Aachen University"
+version: 1.0.0
+date-released: 2026-05-22
+url: "https://github.com/YOUR_GITHUB_USERNAME/physics-guided-lfs"
+preferred-citation:
+  type: article
+  status: preprint
+  title: "Physics-guided laminar flame speed correlation for methane-hydrogen-air mixtures with varying dilution"
+  authors:
+    - family-names: "Hesse"
+      given-names: "Raik"
+    - family-names: "Schwenzer"
+      given-names: "Christian"
+    - family-names: "Glaznev"
+      given-names: "Roman"
+    - family-names: "Cameron"
+      given-names: "Florence"
+    - family-names: "Pitsch"
+      given-names: "Heinz"
+    - family-names: "Beeckmann"
+      given-names: "Joachim"
+  year: 2026
+  journal: "arXiv preprint arXiv:2603.26568"
+  notes: "Submitted to International Journal of Hydrogen Energy"
