@@ -98,6 +98,7 @@ python run_model.py -m val --blend \
     -p "../MODEL_INPUT/FitPar_Present study_0_00bld_CH4_H2_global.json" \
        "../MODEL_INPUT/FitPar_Present study_0_40bld_CH4_H2_global.json" \
        "../MODEL_INPUT/FitPar_Present study_0_80bld_CH4_H2_global.json" \
+       "../MODEL_INPUT/FitPar_Present study_0_95bld_CH4_H2_global.json" \
        "../MODEL_INPUT/FitPar_Present study_1_00bld_CH4_H2_global.json" \
     -i "../VAL_DATA/input_data_full.csv" \
     --xf-h2-col Xf_H2 \
@@ -111,6 +112,7 @@ python run_model.py -m val --blend \
     -p "../MODEL_INPUT/FitPar_Present study_0_00bld_CH4_H2_global.json" \
        "../MODEL_INPUT/FitPar_Present study_0_40bld_CH4_H2_global.json" \
        "../MODEL_INPUT/FitPar_Present study_0_80bld_CH4_H2_global.json" \
+       "../MODEL_INPUT/FitPar_Present study_0_95bld_CH4_H2_global.json" \
        "../MODEL_INPUT/FitPar_Present study_1_00bld_CH4_H2_global.json" \
     -i "../OUTPUT/cases.csv" \
     --xf-h2-col Xf_H2 \
@@ -156,12 +158,12 @@ The `plot_comparison.py` utility generates 2D functional trend comparisons (e.g.
 # Flame temperature vs phi, grouped by Hydrogen fraction, filtering for the robust regime
 python plot_comparison.py \
     -i "../OUTPUT/results_full.csv" \
-    -o "../OUTPUT/compare_Tb_phi_300K_1bar.pdf" \
+    -o "../OUTPUT/compare_Tb_phi_298K_1bar.pdf" \
     --x phi --xlim 0.5 1.8 \
     --y-mod Tb_model_K \
     --y-sim Tb_K \
     --hue Xf_H2 \
-    --filter "Tu_K == 300.0 and p_bar == 1.01325 and Yegr == 0.0" \
+    --filter "Tu_K == 298.0 and p_bar == 1.01325 and Yegr == 0.0" \
     --robust
 ```
 
