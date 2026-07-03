@@ -22,7 +22,7 @@ authors:
     affiliation: "Institute for Combustion Technology, RWTH Aachen University"
 version: 1.0.1
 date-released: 2026-07-03
-doi: "10.5281/zenodo.21162466"
+doi: "10.5281/zenodo.21164326"
 url: "https://github.com/raikhesse/ITV-LFS-model"
 preferred-citation:
   type: article
