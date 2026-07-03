@@ -4,7 +4,7 @@
 
 **ITV-LFS-model** 
 
-Additional supplementary material to the submission of "Physics-guided laminar flame speed correlation for methane–hydrogen–air mixtures with varying dilution."
+Additional supplementary material to the publication of "Physics-guided laminar flame speed correlation for methane–hydrogen–air mixtures with varying dilution" in the *International Journal of Hydrogen Energy*.  
 
 Authors: Raik Hesse, Christian Schwenzer, Roman Glaznev, Florence Cameron, Heinz Pitsch, Joachim Beeckmann
 
@@ -25,20 +25,17 @@ This repository uses a **Dual License** structure:
 
 ## How to Cite
 
-If you use this code in your research, please cite our preprint (currently under review at the *International Journal of Hydrogen Energy*):
+If you use this code in your research, please cite our publication in the *International Journal of Hydrogen Energy*:
 
 ```bibtex
-@misc{Hesse2026_hydrogen_preprint,
-      title={Physics-guided laminar flame speed correlation for methane-hydrogen-air mixtures with varying dilution}, 
-      author={Raik Hesse and Christian Schwenzer and Roman Glaznev and Florence Cameron and Heinz Pitsch and Joachim Beeckmann},
-      year={2026},
-      eprint={2603.26568},
-      archivePrefix={arXiv},
-      primaryClass={physics.flu-dyn},
-      note={submitted to Int. J. Hydrogen Energy}
+@article{Hesse_Physics-guided_laminar_flame_2026,
+         author = {Hesse, Raik and Schwenzer, Christian and Glaznev, Roman and Cameron, Florence and Pitsch, Heinz and Beeckmann, Joachim},
+         doi = {10.1016/j.ijhydene.2026.156313},
+         journal = {International Journal of Hydrogen Energy},
+         title = {{Physics-guided laminar flame speed correlation for methane-hydrogen-air mixtures with varying dilution}},
+         year = {2026}
 }
 ```
-*(Note: This citation will be updated with the final DOI once the paper is published.)*
 
 ---
 
