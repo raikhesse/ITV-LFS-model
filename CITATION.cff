@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the associated preprint/article."
+message: "If you use this software, please cite the associated article."
 title: "ITV-LFS-model: Physics-guided laminar flame speed correlation for methane-hydrogen-air mixtures"
 authors:
   - family-names: "Hesse"
@@ -20,12 +20,13 @@ authors:
   - family-names: "Beeckmann"
     given-names: "Joachim"
     affiliation: "Institute for Combustion Technology, RWTH Aachen University"
-version: 1.0.0
-date-released: 2026-05-22
-url: "https://github.com/YOUR_GITHUB_USERNAME/physics-guided-lfs"
+version: 1.0.1
+date-released: 2026-07-03
+doi: "10.5281/zenodo.21162466"
+url: "https://github.com/raikhesse/ITV-LFS-model"
 preferred-citation:
   type: article
-  status: preprint
+  status: published
   title: "Physics-guided laminar flame speed correlation for methane-hydrogen-air mixtures with varying dilution"
   authors:
     - family-names: "Hesse"
@@ -41,5 +42,5 @@ preferred-citation:
     - family-names: "Beeckmann"
       given-names: "Joachim"
   year: 2026
-  journal: "arXiv preprint arXiv:2603.26568"
-  notes: "Submitted to International Journal of Hydrogen Energy"
+  journal: "International Journal of Hydrogen Energy"
+  doi: "10.1016/j.ijhydene.2026.156313"
